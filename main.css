@@ -33,8 +33,13 @@ body {
   .emoji{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
   }
   .emoji span{
     order: -1;
     align-self: center;
+  }
+  .emoji a{
+    align-self: center;
+    
   }
