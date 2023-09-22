@@ -25,3 +25,8 @@ body {
   .icon {
     font-size: 4rem;
   }
+  .emojis{
+    display: grid;
+    grid-template-columns: repeat(2,25%);
+    gap: 2% 1%;
+  }
