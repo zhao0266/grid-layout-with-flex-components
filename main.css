@@ -20,6 +20,7 @@ body {
     color: white;
     padding: 1rem;
     border-radius: 8px;
+    margin-top:auto;
   }
   
   .icon {
@@ -33,13 +34,10 @@ body {
   .emoji{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
   }
   .emoji span{
     order: -1;
     align-self: center;
   }
-  .emoji a{
-    align-self: center;
-    
-  }
+  
